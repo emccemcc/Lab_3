@@ -104,7 +104,7 @@ p{
 
 }
 
-/* ---trying to remove the media queries This was what messed up my demo
+
 @media (orientation:landscape) {
   .nav{
     display:block;
@@ -114,40 +114,8 @@ p{
     margin:auto;
     }
 
-  #feature, .article, #footer{
-
-    margin-top: 10px;
-    margin-left:0;
-    padding: 10px 0px 5px 0px;
-    width: 20%;
-    text-align:left;
-
-  }
-  body {
-    padding:0;
-  }
-  img{
-    margin:-8px;
-  width:200px;
-  }
-  h1{
-    text-align:left;
-  }
-
-  p{
-    text-align:left;
-    width:40%;
-    font-size:20px;
-
-  }
-  #feature{
-    height:100px;
-  }
-  .article{
-    height: 400px;
-  }
 }
-
+/* ---trying to remove the media queries This was what messed up my demo
 /* test on sizes. I'm having an issue comparing between to ranges to change the positioning
                 I thought it would be an add (compares not holding up in CSS). Could you
                 let me know a better place to search to find an answer? My queries are turning up duds.
