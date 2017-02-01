@@ -1,0 +1,167 @@
+
+
+* {
+  background-color:wheat;
+  text-align:center;
+}
+
+
+
+
+.nav {
+
+  font-family: monospace;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  border:solid;
+}
+/*
+h1 {
+display:flex;
+justify-content:center;
+
+
+}
+
+p {
+
+display:flex;
+justify-content:center;
+}
+
+div {
+  display:flex;
+  justify-content:center;
+}
+*/
+
+.video {
+  width: auto;
+  height:auto;
+  align:center;
+}
+
+#feature, .article, #footer{
+  /* background-color:#efefef; */
+  margin-top: 10px;
+  padding: 10px 0px 5px 0px;
+}
+
+#feature{
+  height:100px;
+}
+.article{
+  height: 400px;
+}
+
+/* three things needs to change*/
+
+@media (max-width: 200px) {
+.nav{
+  display:block;
+  text-align: center;
+  font-size:12px;
+  align-content:center;
+  margin:0}
+
+#feature, .article, #footer{
+  /* background-color:#efefef; */
+  margin-top: 10px;
+  margin-left:0;
+  padding: 10px 0px 5px 0px;
+  width: 20%;
+  text-align:left;
+
+}
+img{
+  margin:-8px;
+width:200px;
+}
+h1{
+  text-align:left;
+}
+
+p{
+  text-align:left;
+  width:40%;
+  font-size:20px;
+
+}
+#feature{
+  height:100px;
+}
+.article{
+  height: 400px;
+}
+}
+
+@media (min-width: 1000px) {
+.nav{
+  display:inline;
+  font-size: 64px;}
+
+}
+
+
+@media (orientation:landscape) {
+  .nav{
+    display:block;
+    text-align: center;
+    font-size:12px;
+    align-content:left;
+    margin:auto;
+    }
+
+  #feature, .article, #footer{
+    /* background-color:#efefef; */
+    margin-top: 10px;
+    margin-left:0;
+    padding: 10px 0px 5px 0px;
+    width: 20%;
+    text-align:left;
+
+  }
+  body {
+    padding:0;
+  }
+  img{
+    margin:-8px;
+  width:200px;
+  }
+  h1{
+    text-align:left;
+  }
+
+  p{
+    text-align:left;
+    width:40%;
+    font-size:20px;
+
+  }
+  #feature{
+    height:100px;
+  }
+  .article{
+    height: 400px;
+  }
+}
+
+/* test on sizes. I'm having an issue comparing between to ranges to change the positioning
+                I thought it would be an add (compares not holding up in CSS). Could you
+                let me know a better place to search to find an answer? My queries are turning up duds.
+@media (min-width: 201px) and (max-width: 500) {
+.nav{
+  display:block;
+  text-align: center;
+  font-size:12px;
+  align-content:center;
+  margin:0;
+background-color:green;}
+
+} */
+
+
+/* three different ways it can look *//* three different ways it can look *//* three different ways it can look */
+/* three different ways it can look */
